@@ -1,6 +1,6 @@
 body{
     height: auto;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .div1{
     width: 100%;
@@ -45,7 +45,8 @@ body{
 .parent1{
     width: 100vw;
     height: 100vh;
-    background: url(../img/f7224851-92eb-4e66-be57-5d247b4beb61.jpg) ;
+    background: url(../img/ford_mustang_gtr_ford_car_143660_2560x1024.jpg) fixed no-repeat;
+    background-size: cover;
     position: relative;
     z-index: -2;
 }
